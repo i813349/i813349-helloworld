@@ -1,1 +1,15 @@
-mvn archetype:generate "-DarchetypeGroupId=com.sap.cloud.s4hana.archetypes" "-DarchetypeArtifactId=scp-cf-tomee" "-DarchetypeVersion=2.1.2" "-DgroupId=com.sap.cloud.s4hana.examples" "-DartifactId=abm-helloworld" "-Dversion=1.0-SNAPSHOT"
+**/credentials.*
+**/target/
+/s4hana_pipeline
+**/*.log
+**/*.trc
+**/.settings/
+**/.project
+**/.classpath
+**/.idea
+**/*.iml
+**/.vscode
+**/node_modules
+**/.DS_Store
+docs/.sass-cache/
+docs/_site/
